@@ -66,3 +66,6 @@ defaults:
       path: "assets/images"
     values:
       image: true
+
+include:
+  - _redirects
