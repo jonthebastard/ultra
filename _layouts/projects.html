@@ -2,12 +2,18 @@
 layout: default
 ---
 
-{% for project in site.projects reversed %}
-<article role="article">
-  <h2><a href="{{ site.baseurl }}{{ project.url }}">
-    {{ project.title }}
-  </a></h2>
-  <p>{{ project.summary }}</p>
-    <time class="date" datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date: "%Y" }} &middot; {{ project.category }}</time>
-</article>
-{% endfor %}
+<table class="redirects">
+  {% for row in site.data.redirects %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th><h2>{{ pair[0] }}</h2></th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+</table>

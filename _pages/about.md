@@ -1,21 +1,25 @@
 ---
-layout: page
+layout: about
 title: About
 ---
 
-## Ultra - Super fast Jekyll theme 
+welcome
 
-Super fast, minimal one-column portfolio/blog theme built for Jekyll. Theme weighs under <strong>2kb</strong>. Perfect for your personal website, blog and portfolio.
+<br />
 
-### Key features
+I originally created 09blk.com to be an easy way to generate redirect links
 
-- seo optimized
-- weighs under 2kb
-- portfolio/blog pages
-- AAA, 100/100 scores on Lighthouse, Gmetrix and Webpagetest
-- responsive
-- inline css
-- compressed css, html
-- sitemap
-- robots.txt
-- atom feed
+it's now also serving as my personal landing page
+
+<br />
+
+more to come
+-- punch
+
+<br />
+
+more:
+
+<a target ="_new" href="https://instagram.com/rackovens/"><i class="fa fa-instagram" style="font-size:38px;"></i> @rackovens</a>
+
+<a target ="_new" href="https://www.thatguywiththemohawk.com"><i class="fa fa-camera" style="font-size:28px;"></i> thatguywiththemohawk.com</a>

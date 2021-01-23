@@ -1,15 +1,15 @@
-site: Ultra
-url: https://example.com
-title: Ultra
-description: Ultra - Super fast Jekyll theme, weighs under 2kb
+site: 09BLK.COM
+url: https://09blk.com
+title: 09BLK.COM
+description: 09BLK.COM
 twitter:
   username: yourusername
   card: summary
 
 permalink: pretty
 
-paginate:            1000
-paginate_path:       "/page:num/"
+#paginate:            1000
+#paginate_path:       "/page:num/"
 baseurl:             ""
   
 compress_html:
@@ -24,7 +24,8 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-seo-tag
-  - jekyll-sitemap  
+  - jekyll-sitemap
+  - jekyll-inline-svg
 
 collections:
   pages:
@@ -66,6 +67,9 @@ defaults:
       path: "assets/images"
     values:
       image: true
+
+svg:
+  optimize: true
 
 include:
   - _redirects
